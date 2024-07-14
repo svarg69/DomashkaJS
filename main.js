@@ -49,8 +49,9 @@
 
 
 
-// Задачки от 09.07.
-// Задачка 1
+    // Задачки от 09.07.
+
+    // Задачка 1
 // const age = prompt('Сколько Вам лет?');
 //     if (age >= 0 && age < 12) {
 //         alert('Вы ребенок');
@@ -62,7 +63,7 @@
 //         alert('Вы пенсионер');
 //     }
 
-// Задачка 2
+    // Задачка 2
 // const num = prompt('Введите число от 0 до 9');
 //     switch(num) {
 //         case '0':
@@ -98,7 +99,7 @@
 //     }
 
     
-// Задачка 3
+    // Задачка 3
 // const num = prompt("Введите трехзначное число:");
 
 // if (num.length === 3) {
@@ -112,7 +113,7 @@
 // }
 
 
-// Задачка 4
+    // Задачка 4
 // const year = prompt('Какой сейчас год?');
 //     if (year % 4 == 0 && year % 100 !== 0)
 //     {
@@ -122,15 +123,57 @@
 //         alert('Сейчас не високосный год')
 
 
-// Задачка 5
-const userInput = prompt("Введите пятиразрядное число:");
-const strNumber = userInput.toString();
-if (strNumber.length === 5) {
-    if (strNumber === strNumber.split('').reverse().join('')) {
-        alert(`${strNumber} является палиндромом.`);
-    } else {
-        alert(`${strNumber} не является палиндромом.`);
-    }
-} else {
-    alert("Введите корректное пятиразрядное число.");
-}
+    // Задачка 5  в этой задачке помог chatGpt
+// const userInput = prompt("Введите пятиразрядное число:");
+// const strNumber = userInput.toString();
+// if (strNumber.length === 5) {
+//     if (strNumber === strNumber.split('').reverse().join('')) {
+//         alert(`${strNumber} является палиндромом.`);
+//     } else {
+//         alert(`${strNumber} не является палиндромом.`);
+//     }
+// } else {
+//     alert("Введите корректное пятиразрядное число.");
+// }
+
+
+
+    // Задачки от 11.07.
+    // Задача 1
+
+// let start = +prompt("Введите начальное число:");
+// let end = +prompt("Введите конечное число:");
+
+// if (start > end) {;
+// } else {
+//     let sum = 0;
+//     let current = start;
+
+//     while (current <= end) {
+//         sum += current;
+//         current++;
+//     }
+//     alert(`Сумма всех чисел от ${start} до ${end} равна ${sum}.`);
+// } 
+
+    // Задача 3
+
+// let num= +prompt("Введите число:");
+// let divisors = ""; 
+
+// for (let i = 1; i <= num; i++) {
+//     if (num % i === 0) {
+//         divisors += i + " ";
+//     }
+// }    
+//      alert(`Делители числа ${num}: ${divisors}`);
+
+    // Задача 4
+
+// let num = prompt('Введите число'); 
+// let count = 0;
+
+//     for (let i = 0; i < num.length; i++) {
+//         count += 1;
+//     };
+//     alert(`Число состоит из ${count} цифр`);
